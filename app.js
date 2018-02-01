@@ -1,5 +1,5 @@
 let dropDown = document.querySelector(".citySelect")
-let baseWeatherURL = "http://api.openweathermap.org/data/2.5/weather?id="
+let baseWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id="
 let weatherKey = "&APPID=262303768614f8e18789b312097675b8"
 let submitText = document.querySelector("h5")
 dropDown.addEventListener("change", getCurrentWeather)
